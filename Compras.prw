@@ -14,7 +14,7 @@ User Function Compras()
     aRotina := MenuDef()
 
     oBrowse:SetAlias('Z01')
-    oBrowse:SetDescription('Pedidos de Compra - Customizado')
+    oBrowse:SetDescription('Solicitação de Compra - Customizado')
 
     oBrowse:Activate()
 
@@ -70,8 +70,6 @@ Static Function ModelDef()
 
     // Descrições do Model
     oModel:SetDescription('ModelDescription')
-    oModel:GetModel('Z01_MASTER'):SetDescription('ModelMasterDescription')
-    oModel:GetModel('Z02_ITENS'):SetDescription('ModelGridDescription')
 
 Return oModel
 
